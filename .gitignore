@@ -1,2 +1,5 @@
 *.zip
 otto-recommender-system/
+
+
+*.venv

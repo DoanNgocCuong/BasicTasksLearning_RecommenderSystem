@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid-recommender-system"
+version = "1.0.0"
+description = "Hybrid Recommendation System using Python"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+requires-python = ">=3.7,<3.11"
+
+[project.dependencies]
+dependencies = [
+    "streamlit==1.25.0",
+    "pandas==2.1.1",
+    "scikit-learn==1.3.1",
+    "scikit-surprise==1.1.1",
+    "numpy==1.23.5",
+    "matplotlib==3.8.0"
+]
